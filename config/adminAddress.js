@@ -1,3 +1,3 @@
-const AdminAddresses = ["0xb7bc6d2666e73f8cd143a929db5404e2fc03ea89"];
+const AdminAddresses = ["0x18e531046a2f45c3779ca2b046096a73fc23e739"];
 
 module.exports = AdminAddresses;

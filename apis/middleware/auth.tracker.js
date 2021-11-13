@@ -9,7 +9,7 @@ const tracker_ip5 = process.env.TRACKER_IP5;
 
 const service_auth = (req, res, next) => {
   let request_ip = requestIP.getClientIp(req);
-
+console.log("RE IP:", request_ip)
   if (
     request_ip == tracker_ip1 ||
     request_ip == tracker_ip2 ||
