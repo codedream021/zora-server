@@ -343,7 +343,7 @@ router.post(
           let metadataURI = tokenURI;
           if (tokenURI.includes('ipfs://')) {
             let uri = tokenURI.split('//')[1];
-            metadataURI = `https://artion.mypinata.cloud/ipfs/${uri}`;
+            metadataURI = `https://cloudflare-ipfs.com/ipfs/${uri}`;
           }
           metadata = await axios.get(metadataURI);
           try {
